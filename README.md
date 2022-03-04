@@ -1,4 +1,4 @@
-### Path Planning for a point robot using Brute Force or DIJKSTRA 
+# Path Planning for a point robot using Brute Force or DIJKSTRA 
 
 There are 2 files P2_BFS.py where the start to goal node is reached through the BFS algorithm and P2_DIJKSTRA.py which runs the same using DIJKSTRA algorithm. The time taken to reach the goal state using BFS is 5-6 mins and using Dijkstra the goal state is reached in 10-18 secs which includes backtracking using the parent node information.
 
@@ -32,11 +32,11 @@ There are 2 files P2_BFS.py where the start to goal node is reached through the 
 
 ## Test Cases
 
-# The two test cases for BFS are:
+### The two test cases for BFS are:
 1. Start node [1,1] and goal node [399,299].
 2. Start node [30,30] and goal node [230,250].
 
-# The two test cases for Dijkstra are:
+### The two test cases for Dijkstra are:
 1. Start node [1,1] and goal node [399,299].
 2. Start node [50,50] and goal node [200,200].
 
