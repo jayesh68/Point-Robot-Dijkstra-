@@ -30,7 +30,7 @@ There are 2 files P2_BFS.py where the start to goal node is reached through the 
 3. Run the command python3 P2_BFS.py and P2_DIJKSTRA.py
 4. There are a total of 2 test cases. Each test case needs to be uncommented to run.
 
-## Test CAses
+## Test Cases
 
 # The two test cases for BFS are:
 1. Start node [1,1] and goal node [399,299].
