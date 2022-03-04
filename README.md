@@ -1,8 +1,8 @@
-ENPM661 Project2: To reach the goal node from a start point using BFS or DIJKSTRA on a map of width 400 and height 300.
+### Path Planning for a point robot using Brute Force or DIJKSTRA 
 
 There are 2 files P2_BFS.py where the start to goal node is reached through the BFS algorithm and P2_DIJKSTRA.py which runs the same using DIJKSTRA algorithm. The time taken to reach the goal state using BFS is 5-6 mins and using Dijkstra the goal state is reached in 10-18 secs which includes backtracking using the parent node information.
 
-The logic for the BFS is as follows. 
+## BFS Logic
 1. The start node and goal node is given by the x,y position which takes input from the user
 2. A function is called to create a list of the obstacle coordinates and initialize an image which would later be used to setup the animation.
 3. There are checks to verify start node is the same as the goal node, if the start ot the goal node is in the obstacle space or outside the map.
@@ -12,8 +12,7 @@ The logic for the BFS is as follows.
 7. The pygame code would run the animation once the goal node is reached and the backtrack is completed.
 8. The video for the testcase [1,1] as the start and [399,299] can be found in the video P2BFS.avi.
 
-
-The logic for the Dijkstra is as follows. 
+## Dijkstra Logic
 1. The start node and goal node is given by the x,y position which takes input from the user.
 2. A function is called to create a list of the obstacle coordinates and initialize an image which would later be used to setup the animation.
 3. There are checks to verify start node is the same as the goal node, if the start ot the goal node is in the obstacle space or outside the map.
@@ -25,19 +24,22 @@ The logic for the Dijkstra is as follows.
 8. The pygame code would run the animation once the goal node is reached and the backtrack is completed.
 9. The video for the testcase [1,1] as the start and [399,299] can be found in the video P2DIJKSTRA.avi.
 
-Steps to run the program
+## Steps to run the program
 1. In the terminal clone the repository https://github.com/jayesh68/ENPM661.git or extract the zip folder of the file.
 2. Navigate to the folder Project2.
 3. Run the command python3 P2_BFS.py and P2_DIJKSTRA.py
 4. There are a total of 2 test cases. Each test case needs to be uncommented to run.
 
-The two test cases for BFS are:
+## Test CAses
+
+# The two test cases for BFS are:
 1. Start node [1,1] and goal node [399,299].
 2. Start node [30,30] and goal node [230,250].
 
-The two test cases for Dijkstra are:
+# The two test cases for Dijkstra are:
 1. Start node [1,1] and goal node [399,299].
 2. Start node [50,50] and goal node [200,200].
 
-
-Have added updated script for BFS P2_BFS_UPDATED.py where redundant code has been removed and the if user inputs invalid values the program restarts and the user needs to reenter those values again.
+## Visualization
+* BFS: https://youtu.be/cTn0ulU1ZBo
+* Dijkstra:  https://youtu.be/gD7NYVawHIg
